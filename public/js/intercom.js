@@ -26,12 +26,7 @@
                 n.parentNode.insertBefore(e, n)
             };
             analytics.SNIPPET_VERSION = "3.0.1";
-            if (window.location.href.indexOf('edgebet.net') === -1) {
-                analytics.load("hTwjFtfYIiAJLkuca5FdHqpr8mUs09T9");
-            }
-            else {
-                analytics.load("Scs1erEcShUp9GKiLe5BhnymAvKgt8H8");
-            }
+            analytics.load("Scs1erEcShUp9GKiLe5BhnymAvKgt8H8");
             analytics.page()
         }
 }();

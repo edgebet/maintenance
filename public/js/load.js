@@ -113,7 +113,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
         check.check.setAttribute("fill", "rgba(255, " + check_color[0] + "," + check_color[1] + ", 1)");
       }
     })
-    if (now - start_time < 30000 && upward_moving_group.currentY > -710) {
+    if (upward_moving_group.currentY > -500) {
+      requestAnimationFrame(animateLoading);
+    } else {
+      upward_moving_group.currentY = 0
       requestAnimationFrame(animateLoading);
     }
   }
