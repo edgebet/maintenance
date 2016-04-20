@@ -1,0 +1,14 @@
+{
+  "name": "maintenance",
+  "version": "1.0.0",
+  "description": "maintenance project for edgebet",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
